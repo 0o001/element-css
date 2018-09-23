@@ -1,0 +1,295 @@
+/* Color, Tags, */
+black, *[black] { color: #000000; } 
+silver, *[silver] { color: #c0c0c0; } 
+gray, *[gray] { color: #808080; } 
+white, *[white] { color: #ffffff; } 
+maroon, *[maroon] { color: #800000; } 
+red, *[red] { color: #ff0000; } 
+purple, *[purple] { color: #800080; } 
+fuchsia, *[fuchsia] { color: #ff00ff; } 
+green, *[green] { color: #008000; } 
+lime, *[lime] { color: #00ff00; } 
+olive, *[olive] { color: #808000; } 
+yellow, *[yellow] { color: #ffff00; } 
+navy, *[navy] { color: #000080; } 
+blue, *[blue] { color: #0000ff; } 
+teal, *[teal] { color: #008080; } 
+aqua, *[aqua] { color: #00ffff; } 
+range, *[range] { color: #ffa500; } 
+aliceblue, *[aliceblue] { color: #f0f8ff; } 
+antiquewhite, *[antiquewhite] { color: #faebd7; } 
+aquamarine, *[aquamarine] { color: #7fffd4; } 
+azure, *[azure] { color: #f0ffff; } 
+beige, *[beige] { color: #f5f5dc; } 
+bisque, *[bisque] { color: #ffe4c4; } 
+blanchedalmond, *[blanchedalmond] { color: #ffe4c4; } 
+blueviolet, *[blueviolet] { color: #8a2be2; } 
+brown, *[brown] { color: #a52a2a; } 
+burlywood, *[burlywood] { color: #deb887; } 
+cadetblue, *[cadetblue] { color: #5f9ea0; } 
+chartreuse, *[chartreuse] { color: #7fff00; } 
+chocolate, *[chocolate] { color: #d2691e; } 
+coral, *[coral] { color: #ff7f50; } 
+cornflowerblue, *[cornflowerblue] { color: #6495ed; } 
+cornsilk, *[cornsilk] { color: #fff8dc; } 
+crimson, *[crimson] { color: #dc143c; } 
+darkblue, *[darkblue] { color: #00008b; } 
+darkcyan, *[darkcyan] { color: #008b8b; } 
+darkgoldenrod, *[darkgoldenrod] { color: #b8860b; } 
+darkgray, *[darkgray] { color: #a9a9a9; } 
+darkgreen, *[darkgreen] { color: #006400; } 
+darkgrey, *[darkgrey] { color: #a9a9a9; } 
+darkkhaki, *[darkkhaki] { color: #bdb76b; } 
+darkmagenta, *[darkmagenta] { color: #8b008b; } 
+darkolivegreen, *[darkolivegreen] { color: #556b2f; }
+darkorange, *[darkorange] { color: #ff8c00; }
+darkorchid, *[darkorchid] { color: #9932cc; }
+darkred, *[darkred] { color: #8b0000; }
+darksalmon, *[darksalmon] { color: #e9967a; }
+darkseagreen, *[darkseagreen] { color: #8fbc8f; }
+darkslateblue, *[darkslateblue] { color: #483d8b; }
+darkslategray, *[darkslategray] { color: #2f4f4f; }
+darkslategrey, *[darkslategrey] { color: #2f4f4f; }
+darkturquoise, *[darkturquoise] { color: #00ced1; }
+darkviolet, *[darkviolet] { color: #9400d3; }
+deeppink, *[deeppink] { color: #ff1493; }
+deepskyblue, *[deepskyblue] { color: #00bfff; }
+dimgray, *[dimgray] { color: #696969; }
+dimgrey, *[dimgrey] { color: #696969; }
+dodgerblue, *[dodgerblue] { color: #1e90ff; }
+firebrick, *[firebrick] { color: #b22222; }
+floralwhite, *[floralwhite] { color: #fffaf0; }
+forestgreen, *[forestgreen] { color: #228b22; }
+gainsboro, *[gainsboro] { color: #dcdcdc; }
+ghostwhite, *[ghostwhite] { color: #f8f8ff; }
+gold, *[gold] { color: #ffd700; }
+goldenrod, *[goldenrod] { color: #daa520; }
+greenyellow, *[greenyellow] { color: #adff2f; }
+grey, *[grey] { color: #808080; }
+honeydew, *[honeydew] { color: #f0fff0; }
+hotpink, *[hotpink] { color: #ff69b4; }
+indianred, *[indianred] { color: #cd5c5c; }
+indigo, *[indigo] { color: #4b0082; }
+ivory, *[ivory] { color: #fffff0; }
+khaki, *[khaki] { color: #f0e68c; }
+lavender, *[lavender] { color: #e6e6fa; }
+lavenderblush, *[lavenderblush] { color: #fff0f5; }
+lawngreen, *[lawngreen] { color: #7cfc00; }
+lemonchiffon, *[lemonchiffon] { color: #fffacd; }
+lightblue, *[lightblue] { color: #add8e6; }
+lightcoral, *[lightcoral] { color: #f08080; }
+lightcyan, *[lightcyan] { color: #e0ffff; }
+lightgoldenrodyellow, *[lightgoldenrodyellow] { color: #fafad2; }
+lightgray, *[lightgray] { color: #d3d3d3; }
+lightgreen, *[lightgreen] { color: #90ee90; }
+lightgrey, *[lightgrey] { color: #d3d3d3; }
+lightpink, *[lightpink] { color: #ffb6c1; }
+lightsalmon, *[lightsalmon] { color: #ffa07a; }
+lightseagreen, *[lightseagreen] { color: #20b2aa; }
+lightskyblue, *[lightskyblue] { color: #87cefa; }
+lightslategray, *[lightslategray] { color: #778899; }
+lightslategrey, *[lightslategrey] { color: #778899; }
+lightsteelblue, *[lightsteelblue] { color: #b0c4de; }
+lightyellow, *[lightyellow] { color: #ffffe0; }
+limegreen, *[limegreen] { color: #32cd32; }
+linen, *[linen] { color: #faf0e6; }
+mediumaquamarine, *[mediumaquamarine] { color: #66cdaa; }
+mediumblue, *[mediumblue] { color: #0000cd; }
+mediumorchid, *[mediumorchid] { color: #ba55d3; }
+mediumpurple, *[mediumpurple] { color: #9370db; }
+mediumseagreen, *[mediumseagreen] { color: #3cb371; }
+mediumslateblue, *[mediumslateblue] { color: #7b68ee; }
+mediumspringgreen, *[mediumspringgreen] { color: #00fa9a; }
+mediumturquoise, *[mediumturquoise] { color: #48d1cc; }
+mediumvioletred, *[mediumvioletred] { color: #c71585; }
+midnightblue, *[midnightblue] { color: #191970; }
+mintcream, *[mintcream] { color: #f5fffa; }
+mistyrose, *[mistyrose] { color: #ffe4e1; }
+moccasin, *[moccasin] { color: #ffe4b5; }
+navajowhite, *[navajowhite] { color: #ffdead; }
+oldlace, *[oldlace] { color: #fdf5e6; }
+olivedrab, *[olivedrab] { color: #6b8e23; }
+orangered, *[orangered] { color: #ff4500; }
+orchid, *[orchid] { color: #da70d6; }
+palegoldenrod, *[palegoldenrod] { color: #eee8aa; }
+palegreen, *[palegreen] { color: #98fb98; }
+paleturquoise, *[paleturquoise] { color: #afeeee; }
+palevioletred, *[palevioletred] { color: #db7093; }
+papayawhip, *[papayawhip] { color: #ffefd5; }
+peachpuff, *[peachpuff] { color: #ffdab9; }
+peru, *[peru] { color: #cd853f; }
+pink, *[pink] { color: #ffc0cb; }
+plum, *[plum] { color: #dda0dd; }
+powderblue, *[powderblue] { color: #b0e0e6; }
+rosybrown, *[rosybrown] { color: #bc8f8f; }
+royalblue, *[royalblue] { color: #4169e1; }
+saddlebrown, *[saddlebrown] { color: #8b4513; }
+salmon, *[salmon] { color: #fa8072; }
+sandybrown, *[sandybrown] { color: #f4a460; }
+seagreen, *[seagreen] { color: #2e8b57; }
+seashell, *[seashell] { color: #fff5ee; }
+sienna, *[sienna] { color: #a0522d; }
+skyblue, *[skyblue] { color: #87ceeb; }
+slateblue, *[slateblue] { color: #6a5acd; }
+slategray, *[slategray] { color: #708090; }
+slategrey, *[slategrey] { color: #708090; }
+snow, *[snow] { color: #fffafa; }
+springgreen, *[springgreen] { color: #00ff7f; }
+steelblue, *[steelblue] { color: #4682b4; }
+tan, *[tan] { color: #d2b48c; }
+thistle, *[thistle] { color: #d8bfd8; }
+tomato, *[tomato] { color: #ff6347; }
+turquoise, *[turquoise] { color: #40e0d0; }
+violet, *[violet] { color: #ee82ee; }
+wheat, *[wheat] { color: #f5deb3; }
+whitesmoke, *[whitesmoke] { color: #f5f5f5; }
+yellowgreen, *[yellowgreen] { color: #9acd32; }
+rebeccapurple, *[rebeccapurple] { color: #663399; }
+
+*[background="black"] { background-color: #000000; } 
+*[background="silver"] { background-color: #c0c0c0; } 
+*[background="gray"] { background-color: #808080; } 
+*[background="white"] { background-color: #ffffff; } 
+*[background="maroon"] { background-color: #800000; } 
+*[background="red"] { background-color: #ff0000; } 
+*[background="purple"] { background-color: #800080; } 
+*[background="fuchsia"] { background-color: #ff00ff; } 
+*[background="green"] { background-color: #008000; } 
+*[background="lime"] { background-color: #00ff00; } 
+*[background="olive"] { background-color: #808000; } 
+*[background="yellow"] { background-color: #ffff00; } 
+*[background="navy"] { background-color: #000080; } 
+*[background="blue"] { background-color: #0000ff; } 
+*[background="teal"] { background-color: #008080; } 
+*[background="aqua"] { background-color: #00ffff; } 
+*[background="range"] { background-color: #ffa500; } 
+*[background="aliceblue"] { background-color: #f0f8ff; } 
+*[background="antiquewhite"] { background-color: #faebd7; } 
+*[background="aquamarine"] { background-color: #7fffd4; } 
+*[background="azure"] { background-color: #f0ffff; } 
+*[background="beige"] { background-color: #f5f5dc; } 
+*[background="bisque"] { background-color: #ffe4c4; } 
+*[background="blanchedalmond"] { background-color: #ffe4c4; } 
+*[background="blueviolet"] { background-color: #8a2be2; } 
+*[background="brown"] { background-color: #a52a2a; } 
+*[background="burlywood"] { background-color: #deb887; } 
+*[background="cadetblue"] { background-color: #5f9ea0; } 
+*[background="chartreuse"] { background-color: #7fff00; } 
+*[background="chocolate"] { background-color: #d2691e; } 
+*[background="coral"] { background-color: #ff7f50; } 
+*[background="cornflowerblue"] { background-color: #6495ed; } 
+*[background="cornsilk"] { background-color: #fff8dc; } 
+*[background="crimson"] { background-color: #dc143c; } 
+*[background="darkblue"] { background-color: #00008b; } 
+*[background="darkcyan"] { background-color: #008b8b; } 
+*[background="darkgoldenrod"] { background-color: #b8860b; } 
+*[background="darkgray"] { background-color: #a9a9a9; } 
+*[background="darkgreen"] { background-color: #006400; } 
+*[background="darkgrey"] { background-color: #a9a9a9; } 
+*[background="darkkhaki"] { background-color: #bdb76b; } 
+*[background="darkmagenta"] { background-color: #8b008b; } 
+*[background="darkolivegreen"] { background-color: #556b2f; }
+*[background="darkorange"] { background-color: #ff8c00; }
+*[background="darkorchid"] { background-color: #9932cc; }
+*[background="darkred"] { background-color: #8b0000; }
+*[background="darksalmon"] { background-color: #e9967a; }
+*[background="darkseagreen"] { background-color: #8fbc8f; }
+*[background="darkslateblue"] { background-color: #483d8b; }
+*[background="darkslategray"] { background-color: #2f4f4f; }
+*[background="darkslategrey"] { background-color: #2f4f4f; }
+*[background="darkturquoise"] { background-color: #00ced1; }
+*[background="darkviolet"] { background-color: #9400d3; }
+*[background="deeppink"] { background-color: #ff1493; }
+*[background="deepskyblue"] { background-color: #00bfff; }
+*[background="dimgray"] { background-color: #696969; }
+*[background="dimgrey"] { background-color: #696969; }
+*[background="dodgerblue"] { background-color: #1e90ff; }
+*[background="firebrick"] { background-color: #b22222; }
+*[background="floralwhite"] { background-color: #fffaf0; }
+*[background="forestgreen"] { background-color: #228b22; }
+*[background="gainsboro"] { background-color: #dcdcdc; }
+*[background="ghostwhite"] { background-color: #f8f8ff; }
+*[background="gold"] { background-color: #ffd700; }
+*[background="goldenrod"] { background-color: #daa520; }
+*[background="greenyellow"] { background-color: #adff2f; }
+*[background="grey"] { background-color: #808080; }
+*[background="honeydew"] { background-color: #f0fff0; }
+*[background="hotpink"] { background-color: #ff69b4; }
+*[background="indianred"] { background-color: #cd5c5c; }
+*[background="indigo"] { background-color: #4b0082; }
+*[background="ivory"] { background-color: #fffff0; }
+*[background="khaki"] { background-color: #f0e68c; }
+*[background="lavender"] { background-color: #e6e6fa; }
+*[background="lavenderblush"] { background-color: #fff0f5; }
+*[background="lawngreen"] { background-color: #7cfc00; }
+*[background="lemonchiffon"] { background-color: #fffacd; }
+*[background="lightblue"] { background-color: #add8e6; }
+*[background="lightcoral"] { background-color: #f08080; }
+*[background="lightcyan"] { background-color: #e0ffff; }
+*[background="lightgoldenrodyellow"] { background-color: #fafad2; }
+*[background="lightgray"] { background-color: #d3d3d3; }
+*[background="lightgreen"] { background-color: #90ee90; }
+*[background="lightgrey"] { background-color: #d3d3d3; }
+*[background="lightpink"] { background-color: #ffb6c1; }
+*[background="lightsalmon"] { background-color: #ffa07a; }
+*[background="lightseagreen"] { background-color: #20b2aa; }
+*[background="lightskyblue"] { background-color: #87cefa; }
+*[background="lightslategray"] { background-color: #778899; }
+*[background="lightslategrey"] { background-color: #778899; }
+*[background="lightsteelblue"] { background-color: #b0c4de; }
+*[background="lightyellow"] { background-color: #ffffe0; }
+*[background="limegreen"] { background-color: #32cd32; }
+*[background="linen"] { background-color: #faf0e6; }
+*[background="mediumaquamarine"] { background-color: #66cdaa; }
+*[background="mediumblue"] { background-color: #0000cd; }
+*[background="mediumorchid"] { background-color: #ba55d3; }
+*[background="mediumpurple"] { background-color: #9370db; }
+*[background="mediumseagreen"] { background-color: #3cb371; }
+*[background="mediumslateblue"] { background-color: #7b68ee; }
+*[background="mediumspringgreen"] { background-color: #00fa9a; }
+*[background="mediumturquoise"] { background-color: #48d1cc; }
+*[background="mediumvioletred"] { background-color: #c71585; }
+*[background="midnightblue"] { background-color: #191970; }
+*[background="mintcream"] { background-color: #f5fffa; }
+*[background="mistyrose"] { background-color: #ffe4e1; }
+*[background="moccasin"] { background-color: #ffe4b5; }
+*[background="navajowhite"] { background-color: #ffdead; }
+*[background="oldlace"] { background-color: #fdf5e6; }
+*[background="olivedrab"] { background-color: #6b8e23; }
+*[background="orangered"] { background-color: #ff4500; }
+*[background="orchid"] { background-color: #da70d6; }
+*[background="palegoldenrod"] { background-color: #eee8aa; }
+*[background="palegreen"] { background-color: #98fb98; }
+*[background="paleturquoise"] { background-color: #afeeee; }
+*[background="palevioletred"] { background-color: #db7093; }
+*[background="papayawhip"] { background-color: #ffefd5; }
+*[background="peachpuff"] { background-color: #ffdab9; }
+*[background="peru"] { background-color: #cd853f; }
+*[background="pink"] { background-color: #ffc0cb; }
+*[background="plum"] { background-color: #dda0dd; }
+*[background="powderblue"] { background-color: #b0e0e6; }
+*[background="rosybrown"] { background-color: #bc8f8f; }
+*[background="royalblue"] { background-color: #4169e1; }
+*[background="saddlebrown"] { background-color: #8b4513; }
+*[background="salmon"] { background-color: #fa8072; }
+*[background="sandybrown"] { background-color: #f4a460; }
+*[background="seagreen"] { background-color: #2e8b57; }
+*[background="seashell"] { background-color: #fff5ee; }
+*[background="sienna"] { background-color: #a0522d; }
+*[background="skyblue"] { background-color: #87ceeb; }
+*[background="slateblue"] { background-color: #6a5acd; }
+*[background="slategray"] { background-color: #708090; }
+*[background="slategrey"] { background-color: #708090; }
+*[background="snow"] { background-color: #fffafa; }
+*[background="springgreen"] { background-color: #00ff7f; }
+*[background="steelblue"] { background-color: #4682b4; }
+*[background="tan"] { background-color: #d2b48c; }
+*[background="thistle"] { background-color: #d8bfd8; }
+*[background="tomato"] { background-color: #ff6347; }
+*[background="turquoise"] { background-color: #40e0d0; }
+*[background="violet"] { background-color: #ee82ee; }
+*[background="wheat"] { background-color: #f5deb3; }
+*[background="whitesmoke"] { background-color: #f5f5f5; }
+*[background="yellowgreen"] { background-color: #9acd32; }
+*[background="rebeccapurple"] { background-color: #663399; }
+/* Fin, Color, Tags, */

@@ -1,0 +1,59 @@
+none, *[none] {
+	text-transform: none;
+}
+
+uppercase, *[uppercase] {
+	text-transform: uppercase;
+}
+
+lowercase, *[uppercase] {
+	text-transform: lowercase;
+}
+
+capitalize, *[capitalize] {
+	text-transform: capitalize;
+}
+
+initial, *[initial] {
+	text-transform: initial;
+}
+
+*[word-wrap="normal"] {
+	word-wrap: normal;
+}
+
+*[word-wrap="break-word"] {
+	word-wrap: break-word;
+}
+
+*[word-wrap="initial"] {
+	word-wrap: initial;
+}
+
+*[word-wrap="inherit"] {
+	word-wrap: inherit;
+}
+
+*[word-break="normal"] {
+	word-break: normal;
+}
+
+*[word-break="break-all"] {
+	word-break: break-all;
+}
+
+*[word-break="keep-all"] {
+	word-break: keep-all;
+}
+
+*[word-break="inherit"] {
+	word-break: inherit;
+}
+
+*[word-break="initial"] {
+	word-break: initial;
+}
+
+*[word-break="unset"] {
+	word-break: unset;
+}

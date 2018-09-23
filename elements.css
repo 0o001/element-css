@@ -1,0 +1,114 @@
+vertical {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /*transform: translateX(-50%) translateY(-50%);*/
+    transform: translate(-50%, -50%);
+}
+
+horizontal, middle, *[float="middle"] {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+*[float="left"] {
+    float: left;
+}
+
+*[float="right"] {
+    float: right;
+}
+
+*[float="none"] {
+    float: none;
+}
+
+*[float="all"] {
+    float: all;
+}
+
+*[float="inherit"] {
+    float: inherit;
+}
+
+*[float="initial"] {
+    float: initial;
+}
+
+*[float="unset"] {
+    float: unset;
+}
+
+*[text-align="all"] {
+    text-align: all;
+}
+
+*[text-align="center"] {
+    text-align:center;
+}
+
+*[text-align="inherit"] {
+    text-align: inherit;
+}
+
+*[text-align="initial"] {
+    text-align:initial;
+}
+
+*[text-align="justify"] {
+    text-align:justify;
+}
+
+*[text-align="justify-all"] {
+    text-align: justify-all;
+}
+
+*[text-align="left"] {
+    text-align: left;
+}
+
+*[text-align="right"] {
+    text-align: right;
+}
+
+*[text-align="unset"] {
+    text-align: unset; 
+}
+
+*[position="absolute"] {
+    position: absolute;
+}
+
+*[position="all"] {
+    position: all;
+}
+
+*[position="fixed"] {
+    position: fixed;
+}
+
+*[position="inherit"] {
+    position: inherit;  
+}
+
+*[position="initial"] {
+    position: initial;
+}
+
+*[position="relative"] {
+    position: relative;
+}
+
+*[position="static"] {
+    position: static;
+}
+
+*[position="sticky"] {
+    position: sticky; 
+}
+
+*[position="unset"] {
+    position:  unset;
+}

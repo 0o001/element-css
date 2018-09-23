@@ -1,0 +1,24 @@
+pi:after {
+	content: "3.14159";
+}
+e:after {
+	content: "2.718";
+}
+ln10:after {
+	content: "2.302";
+}
+ln2:after {
+	content: "0.693";
+}
+log10e:after {
+	content: "0.434";
+}
+log2e:after {
+	content: "1.442";
+}
+sqrt1_2:after {
+	content: "0.707";
+}
+sqrt2:after {
+	content: "1.414";
+}
